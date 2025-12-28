@@ -10,7 +10,15 @@
       content="Turnos para clases de música en sala de ensayo"
     />
     <meta name="keywords" content="sala, música, clases, taller musical" />
-    <link rel="shortcut icon" href="./assets/t-rock.png" type="image/png" />
+    <link
+      rel="shortcut icon"
+      href="./assets/T-Rock icon.jpg"
+      type="image/png"
+    />
+    <script
+      src="https://kit.fontawesome.com/b33de609e9.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,17 +28,32 @@
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <section>
-      <img src="./assets/t-rock.png" alt="T-Rock" />
-    </section>
-    <section>
-      <h1>Elige tu espacio:</h1>
-      <a href="./pages/salaPrincipal.html">
-        <button>Ir a Sala Principal</button>
-      </a>
-      <a href="./pages/antesala.html">
-        <button>Ir a Antesala</button>
-      </a>
-    </section>
+    <header>
+      <section class="logo text-center mt-5">
+        <img src="./assets/T-Rock.png" alt="T-Rock" />
+      </section>
+    </header>
+    <main class="content">
+      <section class="text-center">
+        <h1 class="title">Elige tu espacio:</h1>
+        <a href="./pages/salaPrincipal.html" class="btn-trock"
+          >Ir a Sala Principal</a
+        >
+        <a href="./pages/antesala.html" class="btn-trock">Ir a Antesala</a>
+      </section>
+    </main>
+    <footer>
+      <section class="text-center mb-5">
+        <p>T-Rock | Crisóstomo Álvarez 2261, SMT</p>
+        <a
+          href="https://www.instagram.com/t.rock.sala/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-link"
+        >
+          <i class="fa-brands fa-instagram"></i> T-Rock
+        </a>
+      </section>
+    </footer>
   </body>
 </html>
