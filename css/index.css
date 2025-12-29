@@ -107,3 +107,27 @@ main.content {
 .logo img {
     cursor: pointer;
 }
+
+.agenda-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.agenda-table td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+@media (max-width: 576px) {
+
+    .agenda-table th,
+    .agenda-table td {
+        font-size: 0.75rem;
+        padding: 4px;
+    }
+
+    .hora {
+        font-size: 0.75rem;
+        width: 55px;
+    }
+}
