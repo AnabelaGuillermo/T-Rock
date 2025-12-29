@@ -122,12 +122,12 @@ main.content {
 
     .agenda-table th,
     .agenda-table td {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
         padding: 4px;
     }
 
     .hora {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
         width: 55px;
     }
 }
